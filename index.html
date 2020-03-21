@@ -1,0 +1,75 @@
+<!Doctype html>
+<html>
+<meta charset="UTF-8">
+<head>
+<title> Micony Pharmacy</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="search-box">
+<div class= "input-search">
+<input type="text" placeholder="search">
+<div class="search-icon">
+<span><i class="fa fa-search"></i></span>
+
+
+</div>
+</div>
+<div class="shopping-bag">
+<span><i class="fa fa-shopping-bag fa-lg " ></i> </span> 
+</div>
+</div>
+</head>
+<body>
+<div class="menu-bar">
+<a href=micony.com><img src="miconylogo.jpg" height="60px" width="90px" class="logo" alt="Micony Logo" ></a>
+<ul>
+<li class="active">Home</li>
+<li>About Us</li>
+<li>Services</li>
+<li>Products</li>
+<li>Pharmacy location</li>
+<li>Careers</li>
+<li>Contact</li>
+</ul>
+
+</div>
+
+<div>
+<script type="text/javascript">
+<!-->
+var image1=new image()
+image1.src="pharmaimage0.jpg"
+var image2=new image()
+image2.src="pharmaimage1.jpg"
+var image3=new image()
+image3.src="pharmaimage2.jpg"
+var image4=new image()
+image4.src="pharmaimage3.jpg"
+var image5=new image()
+image5.src="pharmaimage5.jpg"
+//-->
+</script>
+</div>
+
+<div>
+<img="pharmaimage0.jpg" name="slide" width="400px" height="400px">
+<script type="text/javascript">
+<!-->
+var step=1
+function slideit () {
+document.images.slide.src= eval("image+step+.src")
+if (step<3)
+step++
+else
+step=1
+setTimeout ("slide it()", 2500)
+}
+//-->
+slideit()
+</script>
+</div>
+
+
+</body>
+</html>
